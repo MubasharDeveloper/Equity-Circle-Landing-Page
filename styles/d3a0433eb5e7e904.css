@@ -2570,7 +2570,7 @@ img[src*="amazon-adsystem.com"],img[src*="doubleclick.net"] {
 .mega-menu_header__logo__PDxP9 {
   position: relative;
   width: auto;
-  /* height:1.9375rem; */
+  height: 1.9375rem;
   flex: 0 0 auto
 }
 
@@ -2588,7 +2588,7 @@ img[src*="amazon-adsystem.com"],img[src*="doubleclick.net"] {
 @media(min-width: 63rem) {
   .mega-menu_header__logo__PDxP9 {
       width:11.375rem;
-      /* height:1.9375rem; */
+      height: 1.9375rem
   }
 }
 

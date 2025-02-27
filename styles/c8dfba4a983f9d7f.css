@@ -1640,10 +1640,11 @@ ul.blog-hero_blog-hero__article__topics__RtgpK {
 }
 
 .feature-block_feature-block__media-video-wrapper__DZB2_ {
-  position: absolute;
+  /* position: absolute; */
   left: 50%;
   overflow: hidden;
-  transform: translateX(-50%)
+  /* transform: translateX(-50%); */
+  border-radius: 380px !important;!impo;!impo`;!i;!;
 }
 
 .feature-block_feature-block__media--rectangle__z_pqQ {
@@ -2655,14 +2656,14 @@ ul.blog-hero_blog-hero__article__topics__RtgpK {
   --main-content-move-distance: 150px;
   position: relative;
   display: flex;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   height: 100lvh;
   justify-content: center;
-  background-color: transparent;
+  background-color: #000;
   color: #fff;
-  transform: translateY(calc(var(--main-content-move-distance) / 100 * var(--scroll-progress) * var(--main-content-move-direction)));
-  /* margin-top: 150px; */
+  /* transform: translateY(calc(var(--main-content-move-distance) / 100 * var(--scroll-progress) * var(--main-content-move-direction))); */
+  /* margin-top: 130px; */
 }
 
 @media(min-aspect-ratio: 1/1) {
@@ -2679,8 +2680,7 @@ ul.blog-hero_blog-hero__article__topics__RtgpK {
   position: absolute;
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  margin-top: 130px;
+  object-fit: cover
 }
 
 .full-bleed-hero_parallax-main-content__video__IU2If:after {
@@ -2719,8 +2719,7 @@ ul.blog-hero_blog-hero__article__topics__RtgpK {
   height: 100vh;
   flex-direction: column;
   justify-content: center;
-  padding: var(--fbh-text-container-padding);
-  margin-top: 130px;
+  padding: var(--fbh-text-container-padding)
 }
 
 @media(min-aspect-ratio: 1/1) {
@@ -3541,7 +3540,7 @@ ul.blog-hero_blog-hero__article__topics__RtgpK {
 
 @media(max-aspect-ratio: 1/1) {
   .large-carousel-card_large-carousel-card__images__DMid6 {
-      grid-column:1/-2;
+      grid-column:1/-2
   }
 }
 
@@ -5716,7 +5715,8 @@ ul.blog-hero_blog-hero__article__topics__RtgpK {
 
 .three-up-cards_three-up-cards__heading__ZMJI1 {
   margin-bottom: 15px;
-  font-weight: 600!important
+  font-weight: 600!important;
+  text-align: left;
 }
 
 .three-up-cards_three-up-cards__pagination__prWTd {
@@ -6192,4 +6192,11 @@ ul.blog-hero_blog-hero__article__topics__RtgpK {
 
 .sticky-call-to-action_sticky-call-to-action--hidden__MX5np {
   animation: sticky-call-to-action_hide-cta__MC5gz .5s ease 0s normal forwards
+}
+
+
+@media(max-width: 768px){
+  .feature-block_feature-block__media-video-wrapper__DZB2_{
+    border-radius: 100px !important;
+  }
 }
