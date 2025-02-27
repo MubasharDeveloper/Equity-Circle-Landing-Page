@@ -49,71 +49,71 @@
         <script src="./scripts/custom-Slider.js"></script>
 
         <style>
-        /* Carousel Container */
-        .slick-carousel {
-            position: relative;
-            width: 100%;
-            overflow: hidden;
-        }
-
-        /* Individual Slides */
-        .three-up-cards__card {
-            padding: 20px;
-            text-align: center;
-        }
-
-        /* Pagination Dots */
-        .slick-dots {
-            display: flex;
-            justify-content: center;
-            list-style: none;
-            padding: 0;
-            margin: 20px 0;
-        }
-
-        .slick-dots li {
-            margin: 0 5px;
-        }
-
-        .slick-dots li button {
-            width: 0px;
-            height: 0px;
-            border-radius: 50%;
-            background: #ccc;
-            border: none;
-            cursor: pointer;
-            font-size: 0; /* Hide text */
-        }
-
-        .slick-dots li.slick-active button {
-            background: #000; /* Active dot color */
-        }
-
-        .slick-dots li button:before{
-            font-size: 10px !important;
-        }
-
-        .slick-dark{
-            & .slick-dots li button {
-                width: 10px;
-                height: 10px;
-                background: #505050; /* Active dot color */
+            /* Carousel Container */
+            .slick-carousel {
+                position: relative;
+                width: 100%;
+                overflow: hidden;
             }
-            & .slick-dots li button:before{
-                font-size: 0px !important;
-            }
-            & .slick-dots li.slick-active button {
-                background: #fff; /* Active dot color */
-            }
-        }
 
-        .slick-dotted.slick-slider{
-            margin: 0 !important;
-        }
-        .slick-dots li button{
-            padding: 0px !important;
-        }
-    </style>
+            /* Individual Slides */
+            .three-up-cards__card {
+                padding: 20px;
+                text-align: center;
+            }
+
+            /* Pagination Dots */
+            .slick-dots {
+                display: flex;
+                justify-content: center;
+                list-style: none;
+                padding: 0;
+                margin: 20px 0;
+            }
+
+            .slick-dots li {
+                margin: 0 5px;
+            }
+
+            .slick-dots li button {
+                width: 0px;
+                height: 0px;
+                border-radius: 50%;
+                background: #ccc;
+                border: none;
+                cursor: pointer;
+                font-size: 0; /* Hide text */
+            }
+
+            .slick-dots li.slick-active button {
+                background: #000; /* Active dot color */
+            }
+
+            .slick-dots li button:before{
+                font-size: 10px !important;
+            }
+
+            .slick-dark{
+                & .slick-dots li button {
+                    width: 10px;
+                    height: 10px;
+                    background: #505050; /* Active dot color */
+                }
+                & .slick-dots li button:before{
+                    font-size: 0px !important;
+                }
+                & .slick-dots li.slick-active button {
+                    background: #fff; /* Active dot color */
+                }
+            }
+
+            .slick-dotted.slick-slider{
+                margin: 0 auto !important;
+            }
+            .slick-dots li button{
+                padding: 0px !important;
+            }
+        </style>
     </head>
     <body data-inview-theme="dark">
         <div class="default-layout_layout__qyW8_">
@@ -130,13 +130,15 @@
                                         <div
                                             class="rich-text_rich-text__y_zI2 banner__text">
                                             <p
-                                                class="text_text__NFIw2 text_text--size-sm__b7SaZ block-paragraph">Unlock
-                                                your free trial</p>
+                                                class="text_text__NFIw2 text_text--size-sm__b7SaZ block-paragraph">
+                                                Unlock your free trial
+                                            </p>
                                         </div>
                                         <a href>
                                             <p
-                                                class="text_text__NFIw2 text_text--size-sm__b7SaZ banner__cta">Join
-                                                Now</p>
+                                                class="text_text__NFIw2 text_text--size-sm__b7SaZ banner__cta">
+                                                Join Now
+                                            </p>
                                         </a>
                                     </div>
                                 </div>
@@ -146,53 +148,51 @@
                             <a class="mega-menu_header__logo__PDxP9" href="#">
                                 <img src="./images/Equity_Circle.png"
                                     width="130" alt>
-                                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="205" height="35" viewBox="0 0 205 35" fill="none" role="img">
-                                <title>Equity Circle Logo</title>
-                                <path d="M56.3721 0.855469H52.293V34.1962H56.3721V0.855469Z" fill="#ffffffff" />
-                                <path d="M72.1082 15.4844H60.4258V19.5652H72.1082V15.4844Z" fill="#ffffffff" />
-                                <path d="M80.2627 0.855469H76.1836V34.1962H80.2627V0.855469Z" fill="#ffffffff" />
-                                <path d="M170.727 34.1962H174.806V0.855469H170.727V34.1962Z" fill="#ffffffff" />
-                                <path d="M184.326 0.855469H178.859V4.82526H184.326C188.433 4.93631 191.652 8.35088 191.541 12.4317C191.43 16.3738 188.266 19.5385 184.326 19.6495H178.859V23.6193H184.326C190.597 23.6193 195.703 18.5113 195.703 12.2374C195.703 5.96345 190.625 0.855469 184.326 0.855469Z" fill="#ffffffff" />
-                                <path d="M104.993 0.855469C95.7806 0.855469 88.3161 8.32312 88.3438 17.5397C88.3716 26.7563 95.8083 34.2239 105.021 34.1962C114.234 34.1962 121.671 26.7285 121.671 17.5119C121.643 8.32312 114.206 0.855469 104.993 0.855469ZM104.993 30.2819C97.9728 30.2819 92.2565 24.5632 92.2565 17.5397C92.2565 10.5162 97.9728 4.7975 104.993 4.7975C112.014 4.7975 117.73 10.4885 117.73 17.5397C117.73 24.5632 112.042 30.2819 104.993 30.2819Z" fill="#ffffffff" />
-                                <path d="M145.474 0.855469C136.261 0.855469 128.797 8.32312 128.824 17.5397C128.852 26.7563 136.289 34.2239 145.502 34.1962C154.714 34.1962 162.151 26.7285 162.151 17.5119C162.123 8.32312 154.686 0.855469 145.474 0.855469ZM145.474 30.2819C138.453 30.2819 132.737 24.5909 132.737 17.5397C132.737 10.4885 138.425 4.7975 145.474 4.7975C152.494 4.7975 158.211 10.4885 158.211 17.5397C158.211 24.5632 152.494 30.2819 145.474 30.2819Z" fill="#ffffffff" />
-                                <path d="M32.4845 27.7001L28.1556 13.4589H24.1875L30.5143 34.1962H34.4547L44.6108 0.855469H40.6427L32.4845 27.7001Z" fill="#ffffffff" />
-                                <path d="M4.01069 0.855469H0.0703125L6.36936 21.5928H10.3375L4.01069 0.855469Z" fill="#ffffffff" />
-                                <path d="M20.3511 0.855469L10.2227 34.1962H14.163L24.3192 0.855469H20.3511Z" fill="#ffffffff" />
-                                <path d="M202.392 5.7422C201.032 5.7422 199.922 4.63177 199.922 3.27149C199.922 1.91122 201.032 0.800781 202.392 0.800781C203.751 0.800781 204.861 1.91122 204.861 3.27149C204.861 4.63177 203.751 5.7422 202.392 5.7422ZM202.392 1.27271C201.309 1.27271 200.421 2.16106 200.421 3.24373V3.27149C200.366 4.35416 201.198 5.27027 202.281 5.32579C203.363 5.38131 204.278 4.54849 204.334 3.46582C204.334 3.4103 204.334 3.32701 204.334 3.27149C204.362 2.18882 203.502 1.30047 202.419 1.27271H202.392ZM202.919 4.60401L202.364 3.5491H202.031V4.60401H201.531V1.93898H202.53C202.974 1.93898 203.363 2.2721 203.391 2.74404C203.391 3.07717 203.169 3.35477 202.863 3.46582L203.446 4.57625L202.919 4.60401ZM202.475 2.35539H202.031V3.16045H202.475C202.697 3.18821 202.891 3.04941 202.947 2.82732C202.974 2.60523 202.836 2.41091 202.614 2.35539H202.586C202.558 2.35539 202.503 2.35539 202.475 2.35539Z" fill="#ffffffff" />
-                            </svg> -->
                             </a>
                             <nav
                                 class="mega-menu_header__navigation__r50sd mega-menu_header__navigation--desktop__1_Ny1">
                                 <ul
                                     class="mega-menu_header__navigation-items__aqIS6 mega-menu_header__navigation-items--desktop__y6o8L">
                                     <li
-                                        class="text_text__NFIw2 text_text--size-sm__b7SaZ mega-menu_header__navigation-item__D6nNT"><a
-                                            aria-current="false"
+                                        class="text_text__NFIw2 text_text--size-sm__b7SaZ mega-menu_header__navigation-item__D6nNT">
+                                        <a aria-current="false"
                                             class="mega-menu_header__navigation-link__zS3G7"
-                                            href="./html/difference.html">Why
-                                            Equity Circle</a></li>
+                                            href="#">
+                                            Why Equity Circle
+                                        </a>
+                                    </li>
                                     <li
-                                        class="text_text__NFIw2 text_text--size-sm__b7SaZ mega-menu_header__navigation-item__D6nNT"><a
-                                            aria-current="false"
+                                        class="text_text__NFIw2 text_text--size-sm__b7SaZ mega-menu_header__navigation-item__D6nNT">
+                                        <a aria-current="false"
                                             class="mega-menu_header__navigation-link__zS3G7"
-                                            href="./html/the-data.html">The
-                                            Metrics</a></li>
+                                            href="#">
+                                            The Metrics
+                                        </a>
+                                    </li>
                                     <li
-                                        class="text_text__NFIw2 text_text--size-sm__b7SaZ mega-menu_header__navigation-item__D6nNT"><a
-                                            aria-current="false"
+                                        class="text_text__NFIw2 text_text--size-sm__b7SaZ mega-menu_header__navigation-item__D6nNT">
+                                        <a aria-current="false"
                                             class="mega-menu_header__navigation-link__zS3G7"
-                                            href="./html/Equity Circle-trials.html">Trial
-                                            Equity Circle</a></li>
+                                            href="#">
+                                            Trial Equity Circle
+                                        </a>
+                                    </li>
                                     <li
-                                        class="text_text__NFIw2 text_text--size-sm__b7SaZ mega-menu_header__navigation-item__D6nNT mega-menu_header__navigation-item--active___NVIZ"><a
-                                            aria-current="page"
+                                        class="text_text__NFIw2 text_text--size-sm__b7SaZ mega-menu_header__navigation-item__D6nNT mega-menu_header__navigation-item--active___NVIZ">
+                                        <a aria-current="page"
                                             class="mega-menu_header__navigation-link__zS3G7"
-                                            href="./html/membership.html">Memberships</a></li>
+                                            href="#">
+                                            Memberships
+                                        </a>
+                                    </li>
                                     <li
-                                        class="text_text__NFIw2 text_text--size-sm__b7SaZ mega-menu_header__navigation-item__D6nNT"><a
-                                            aria-current="false"
+                                        class="text_text__NFIw2 text_text--size-sm__b7SaZ mega-menu_header__navigation-item__D6nNT">
+                                        <a aria-current="false"
                                             class="mega-menu_header__navigation-link__zS3G7"
-                                            href="./html/shop.Equity Circle.com.html">Accessories</a></li>
+                                            href="#">
+                                            Accessories
+                                        </a>
+                                    </li>
                                 </ul>
                             </nav>
                             <div
@@ -200,8 +200,10 @@
                                 <a href="#"
                                     class="primary-button_primary-cta__DzHjl primary-button_primary-cta--theme-light__YnJBc primary-button_primary-cta--size-sm__Lad_U">
                                     <span
-                                        class="primary-button_primary-cta__label__b6BiV">Join
-                                        Now</span>
+                                        class="primary-button_primary-cta__label__b6BiV">
+                                        Join
+                                        Now
+                                    </span>
                                 </a>
                             </div>
                             <button
@@ -298,7 +300,7 @@
                                     Now</span>
                             </a>
                         </div>
-                       <div
+                        <div
                             class="module-wrapper_module-wrapper__ONmYZ module-wrapper_module-wrapper--theme-light__Eyjjh spacer spacer_spacer--medium__jX0Eb"></div>
                         <div
                             class="module-wrapper_module-wrapper__ONmYZ module-wrapper_module-wrapper--theme-light__Eyjjh headline-left-aligned headline-left-aligned_headline-left-aligned--fill__164dI headline-left-aligned_headline-left-aligned--with-cta__mTdla"><div
@@ -312,7 +314,8 @@
                                             class="text_text__NFIw2 text_text--size-lg__uWJQC block-paragraph">Understanding
                                             your health and fitness at this
                                             level has been impossible—until now.
-                                            WHOOP only captures the biometric
+                                            Equity Circle only captures the
+                                            biometric
                                             data shown to have the most
                                             meaningful impact on your health. No
                                             other wearable gives you a more
@@ -324,9 +327,9 @@
                                     style="opacity: 1; transform: none;"><div
                                         class="utility-hero__cta"><a
                                             class="secondary-button_secondary-cta__ywfX1 secondary-button_secondary-cta--theme-dark__mZVoR"
-                                            href="/gb/en/the-data/"><span
+                                            href="#"><span
                                                 class="secondary-button_secondary-cta__label__Ba4op">What
-                                                WHOOP
+                                                Equity Circle
                                                 Measures</span></a></div></div></div></div>
                         <div
                             class="module-wrapper_module-wrapper__ONmYZ module-wrapper_module-wrapper--theme-light__Eyjjh featured-app-animation_featured-app-animation__jTwDH"><div
@@ -341,8 +344,7 @@
                                                     decoding="async"
                                                     data-nimg="1"
                                                     style="color:transparent"
-                                                    srcset="https://images.ctfassets.net/rbzqg6pelgqa/6W6ylnhU2XvY38fNxF9jdB/acc1d9e6be0bcebedf0683c6a1829748/4-en-sleep-overview-new__1_.png?fm=webp&amp;q=75&amp;w=1920 1x, https://images.ctfassets.net/rbzqg6pelgqa/6W6ylnhU2XvY38fNxF9jdB/acc1d9e6be0bcebedf0683c6a1829748/4-en-sleep-overview-new__1_.png?fm=webp&amp;q=75&amp;w=3840 2x"
-                                                    src="https://images.ctfassets.net/rbzqg6pelgqa/6W6ylnhU2XvY38fNxF9jdB/acc1d9e6be0bcebedf0683c6a1829748/4-en-sleep-overview-new__1_.png?fm=webp&amp;q=75&amp;w=3840"></div><div
+                                                    src="./images/4-en-sleep-overview-new__2_.webp"></div><div
                                                 style="opacity: 1; transform: none;"
                                                 class="featured-app-animation_featured-app-animation__panel-text__y53iH"><div
                                                     class="featured-app-animation_featured-app-animation__panel-text-inner__MZ3e3"><div
@@ -352,7 +354,8 @@
                                                             height="33"
                                                             viewBox="0 0 33 33"
                                                             fill="none"
-                                                            role="img"><title>WHOOP
+                                                            role="img"><title>Equity
+                                                                Circle
                                                                 Logo</title><path
                                                                 fill="#ffffffff"
                                                                 fill-rule="evenodd"
@@ -379,17 +382,17 @@
                                             class="feature-block_feature-block__media__vs1FT feature-block_feature-block__media--rectangle__z_pqQ feature-block_feature-block__media--image__xrGSz"><div
                                                 class="image-wrapped_wrapped-image__c3jd0 feature-block_feature-block__image__FA5rb"
                                                 data-aspect-ratio="16:9"><img
-                                                    alt="Michael Phelps asleep using WHOOP sleep product features."
+                                                    alt="Michael Phelps asleep using Equity Circle sleep product features."
                                                     loading="lazy" width="3200"
                                                     height="1800"
                                                     decoding="async"
                                                     data-nimg="1"
                                                     style="color:transparent"
-                                                    srcset="https://images.ctfassets.net/rbzqg6pelgqa/6lJO6JWBLG21qmeckdsrGQ/57051b3531e2ff3be01a023572bc3e6c/phelps-sleep__1_.jpg?fm=webp&amp;q=75&amp;w=3840 1x"
-                                                    src="https://images.ctfassets.net/rbzqg6pelgqa/6lJO6JWBLG21qmeckdsrGQ/57051b3531e2ff3be01a023572bc3e6c/phelps-sleep__1_.jpg?fm=webp&amp;q=75&amp;w=3840"></div></div><div
+                                                    src="./images/phelps-sleep__1_.webp"></div></div><div
                                             class="feature-block_feature-block__grid__RdnO6"><div
                                                 style="opacity: 1; transform: none;"><h2
-                                                    class="heading_heading__Gh8z9 heading_heading--size-sm__cLpnR feature-block_feature-block__heading__762od">WHOOP
+                                                    class="heading_heading__Gh8z9 heading_heading--size-sm__cLpnR feature-block_feature-block__heading__762od">Equity
+                                                    Circle
                                                     doesn’t just track — it
                                                     translates.</h2></div><div
                                                 class="feature-block_feature-block__text-wrap__RCn57"><div
@@ -397,8 +400,10 @@
                                                     style="opacity: 1; transform: none;"><p
                                                         class="text_text__NFIw2 text_text--size-lg__uWJQC block-paragraph">When
                                                         you get started on
-                                                        WHOOP, you set a goal
-                                                        for yourself. WHOOP then
+                                                        Equity Circle, you set a
+                                                        goal
+                                                        for yourself. Equity
+                                                        Circle then
                                                         learns your body’s
                                                         baselines and patterns
                                                         to coach you with custom
@@ -419,21 +424,23 @@
                                 class="module-content_module-content__JtNA_ module-content_module-content--flexible-grid__NvyyD headline-left-aligned_headline-left-aligned__container__anhhL"><h2
                                     class="heading_heading__Gh8z9 heading_heading--size-xl__pvIP0 headline-left-aligned_headline-left-aligned__headline__YSkmi"
                                     style="opacity: 1; transform: none;">What
-                                    makes WHOOP different makes it
+                                    makes Equity Circle different makes it
                                     better</h2><div
                                     class="headline-left-aligned_headline-left-aligned__content__VC3EH"></div></div></div>
                         <div
                             class="module-wrapper_module-wrapper__ONmYZ module-wrapper_module-wrapper--theme-dark__AUYZp feature-block_feature-block___ZNm8 feature-block_feature-block--with-cta__Qkse1"><div
                                 class="module-content_module-content__JtNA_ module-content_module-content--flexible-grid__NvyyD"><div
                                     class="feature-block_feature-block__media__vs1FT feature-block__media--pill feature-block__media--video"><div
-                                        class="feature-block_feature-block__media-video-wrapper__DZB2_"
-                                        style="max-width: 1920px; width: 100%; border-radius: 0px;"><div
-                                            class="video-player_video-player__jcPeV video-player_video-player--ratio-16-9__qYzOl video-player_feature-block__video__MqZPa"><video
-                                                class="feature-block__video"
-                                                autoplay playsinline
-                                                loop><source
-                                                    src="https://videos.ctfassets.net/rbzqg6pelgqa/5i73ro7E26TqgLVXgr3cB5/a968dea561bf644a58ee05b850c48d8e/battery-animation__2_.mp4"
-                                                    type="video/mp4"></video></div></div></div><div
+                                        class="feature-block_feature-block__media-video-wrapper__DZB2_ scroll-effect"
+                                        style><div
+                                            class="video-player_video-player__jcPeV video-player_video-player--ratio-16-9__qYzOl video-player_feature-block__video__MqZPa">
+                                            <video class="feature-block__video"
+                                                autoplay playsinline loop muted>
+                                                <source
+                                                    src="./images/battery-animation__2_.mp4"
+                                                    type="video/mp4">
+                                            </video>
+                                        </div></div></div><div
                                     class="feature-block_feature-block__grid__RdnO6"><div
                                         style="opacity: 1; transform: translateY(20px) translateZ(0px);"><h2
                                             class="heading_heading__Gh8z9 heading_heading--size-sm__cLpnR feature-block_feature-block__heading__762od">No
@@ -451,12 +458,13 @@
                                                 Never take it off to charge
                                                 thanks to a wireless battery
                                                 pack. Change things up and wear
-                                                your WHOOP anywhere on your
+                                                your Equity Circle anywhere on
+                                                your
                                                 body. And get lab-level accurate
                                                 data that outperforms other
                                                 leading wearables.</p></div><a
                                             class="secondary-button_secondary-cta__ywfX1 secondary-button_secondary-cta--theme-light__n9y5O feature-block_feature-block__cta__6IqdX"
-                                            href="/gb/en/difference/"><span
+                                            href="#"><span
                                                 class="secondary-button_secondary-cta__label__Ba4op">DISCOVER
                                                 THE
                                                 DIFFERENCE</span></a></div></div></div></div>
@@ -478,12 +486,11 @@
                                                     decoding="async"
                                                     data-nimg="1"
                                                     style="color:transparent"
-                                                    srcset="https://images.ctfassets.net/rbzqg6pelgqa/6kaJqUFxAHqoIfAN1GsyLX/40fc6f78abee01b1d253dd204d8ea3e2/IMG_0914_5_v2__2_.webp?fm=webp&amp;q=75&amp;w=1920 1x, https://images.ctfassets.net/rbzqg6pelgqa/6kaJqUFxAHqoIfAN1GsyLX/40fc6f78abee01b1d253dd204d8ea3e2/IMG_0914_5_v2__2_.webp?fm=webp&amp;q=75&amp;w=3840 2x"
-                                                    src="https://images.ctfassets.net/rbzqg6pelgqa/6kaJqUFxAHqoIfAN1GsyLX/40fc6f78abee01b1d253dd204d8ea3e2/IMG_0914_5_v2__2_.webp?fm=webp&amp;q=75&amp;w=3840"></div></div><div
+                                                    src="./images/IMG_0914_5_v2__2_.webp"></div></div><div
                                             class="banner-carousel-card_banner-carousel-card__content__1YhGe"><div
                                                 class="banner-carousel-card_banner-carousel-card__texts-wrap__Qo7rW"><h4
                                                     class="heading_heading__Gh8z9 heading_heading--size-sm__cLpnR banner-carousel-card__heading">Try
-                                                    WHOOP free for 1
+                                                    Equity Circle free for 1
                                                     Month</h4><div
                                                     class="rich-text_rich-text__y_zI2 banner-carousel-card__body-content"><p
                                                         class="text_text__NFIw2 text_text--size-lg__uWJQC block-paragraph">There's
@@ -494,13 +501,14 @@
                                                         sleep, strain, recovery,
                                                         stress, and health, and
                                                         see what insights you
-                                                        uncover. If WHOOP isn't
+                                                        uncover. If Equity
+                                                        Circle isn't
                                                         for you, cancel any
                                                         time.</p></div></div><div
                                                 class="banner-carousel-card_banner-carousel-card__cta__LSSr0"><a
                                                     class="secondary-button_secondary-cta__ywfX1 secondary-button_secondary-cta--theme-dark__mZVoR"
                                                     tabindex="0"
-                                                    href="/gb/en/whoop-trials/"><span
+                                                    href="#"><span
                                                         class="secondary-button_secondary-cta__label__Ba4op">Learn
                                                         More</span></a></div></div></div></div></div></div>
                         <div
@@ -519,7 +527,7 @@
                                     style="opacity: 1; transform: none;"><div
                                         class="utility-hero__cta"><a
                                             class="secondary-button_secondary-cta__ywfX1 secondary-button_secondary-cta--theme-light__n9y5O"
-                                            href="/gb/en/membership/"><span
+                                            href="#"><span
                                                 class="secondary-button_secondary-cta__label__Ba4op">Learn
                                                 More</span></a></div></div></div></div>
                         <div
@@ -529,28 +537,28 @@
                                 class="module-content_module-content__JtNA_ three-up-cards_three-up-cards__container__xf8ow slick-carousel slick-dark"><div
                                     class="three-up-cards__card"
                                     aria-hidden="false"
-                                    style=""><div
+                                    style><div
                                         class="image-wrapped_wrapped-image__c3jd0 three-up-cards_three-up-cards__image__BoP_u"
                                         data-aspect-ratio="3:4"><img
-                                            alt="WHOOP 4.0 Device, Band and Battery "
+                                            alt="Equity Circle 4.0 Device, Band and Battery "
                                             loading="lazy" width="3000"
                                             height="4000" decoding="async"
                                             data-nimg="1"
                                             style="color:transparent"
-                                            srcset="https://images.ctfassets.net/rbzqg6pelgqa/2UF2zgHQaHkHUWoVNcZwDC/c801232cb6f5208a2e6fb879935ba6a7/1-world-class-tech-alt2__1_.webp?fm=webp&amp;q=75&amp;w=3840 1x"
-                                            src="https://images.ctfassets.net/rbzqg6pelgqa/2UF2zgHQaHkHUWoVNcZwDC/c801232cb6f5208a2e6fb879935ba6a7/1-world-class-tech-alt2__1_.webp?fm=webp&amp;q=75&amp;w=3840"></div><p
+                                            src="./images/1-world-class-tech-alt2__1_.webp"></div><p
                                         class="text_text__NFIw2 text_text--size-lg__uWJQC three-up-cards_three-up-cards__heading__ZMJI1"
                                         style="opacity: 1; transform: none;">World-class
                                         wearable tech</p><div
                                         class="rich-text_rich-text__y_zI2 three-up-cards__content"
                                         style="opacity: 1; transform: none;"><p
                                             class="text_text__NFIw2 text_text--size-lg__uWJQC block-paragraph">Get
-                                            the state-of-the-art WHOOP sensor,
+                                            the state-of-the-art Equity Circle
+                                            sensor,
                                             an ultra-durable, ultra-comfortable
                                             Onyx SuperKnit band, and a
                                             waterproof, wireless battery
                                             pack—all included with purchase.
-                                            WHOOP is IP68 dust-proof and
+                                            Equity Circle is IP68 dust-proof and
                                             water-resistant at depths&nbsp;up to
                                             10 meters (roughly 32 feet) for up
                                             to 2 hours and lasts up to 5 days on
@@ -558,63 +566,67 @@
                                         </p></div></div><div
                                     class="three-up-cards__card"
                                     aria-hidden="false"
-                                    style=""><div
+                                    style><div
                                         class="image-wrapped_wrapped-image__c3jd0 three-up-cards_three-up-cards__image__BoP_u"
                                         data-aspect-ratio="3:4"><img alt
                                             loading="lazy" width="599"
                                             height="798" decoding="async"
                                             data-nimg="1"
                                             style="color:transparent"
-                                            srcset="https://images.ctfassets.net/rbzqg6pelgqa/6HI3utrRDaUi4CKMhYuVIX/43dcb40e7fa5de655261ce98d295b5c0/Update_membership_module__1__3.png?fm=webp&amp;q=75&amp;w=640 1x, https://images.ctfassets.net/rbzqg6pelgqa/6HI3utrRDaUi4CKMhYuVIX/43dcb40e7fa5de655261ce98d295b5c0/Update_membership_module__1__3.png?fm=webp&amp;q=75&amp;w=1200 2x"
-                                            src="https://images.ctfassets.net/rbzqg6pelgqa/6HI3utrRDaUi4CKMhYuVIX/43dcb40e7fa5de655261ce98d295b5c0/Update_membership_module__1__3.png?fm=webp&amp;q=75&amp;w=1200"></div><p
+                                            src="./images/Update_membership_module__1__3.png"></div><p
                                         class="text_text__NFIw2 text_text--size-lg__uWJQC three-up-cards_three-up-cards__heading__ZMJI1"
                                         style="opacity: 1; transform: none;">Personalized
                                         app</p><div
                                         class="rich-text_rich-text__y_zI2 three-up-cards__content"
                                         style="opacity: 1; transform: none;"><p
-                                            class="text_text__NFIw2 text_text--size-lg__uWJQC block-paragraph">WHOOP
+                                            class="text_text__NFIw2 text_text--size-lg__uWJQC block-paragraph">Equity
+                                            Circle
                                             calibrates to your unique baseline
                                             and calculates daily performance
                                             scores, health metrics, real-time
                                             stress levels, and trends over time.
                                             You can also get real-time answers
-                                            from WHOOP Coach, the all-new,
+                                            from Equity Circle Coach, the
+                                            all-new,
                                             AI-powered feature that uses your
-                                            personal WHOOP data, and the latest
+                                            personal Equity Circle data, and the
+                                            latest
                                             in human performance science to give
                                             you custom performance coaching.
                                         </p></div></div><div
                                     class="three-up-cards__card"
                                     aria-hidden="false"
-                                    style=""><div
+                                    style><div
                                         class="image-wrapped_wrapped-image__c3jd0 three-up-cards_three-up-cards__image__BoP_u"
                                         data-aspect-ratio="3:4"><img
-                                            alt="WHOOP labs study. "
+                                            alt="Equity Circle labs study. "
                                             loading="lazy" width="3000"
                                             height="4000" decoding="async"
                                             data-nimg="1"
                                             style="color:transparent"
-                                            srcset="https://images.ctfassets.net/rbzqg6pelgqa/68EtH8AW7uhGCffGyA7PhC/67d5af905309749fa14775c62bb06e3c/3-research-alt__1___1_.webp?fm=webp&amp;q=75&amp;w=3840 1x"
-                                            src="https://images.ctfassets.net/rbzqg6pelgqa/68EtH8AW7uhGCffGyA7PhC/67d5af905309749fa14775c62bb06e3c/3-research-alt__1___1_.webp?fm=webp&amp;q=75&amp;w=3840"></div><p
+                                            src="./images/3-research-alt__1___1_.webp"></div><p
                                         class="text_text__NFIw2 text_text--size-lg__uWJQC three-up-cards_three-up-cards__heading__ZMJI1"
                                         style="opacity: 1; transform: none;">Cutting-edge
                                         science</p><div
                                         class="rich-text_rich-text__y_zI2 three-up-cards__content"
                                         style="opacity: 1; transform: none;"><p
-                                            class="text_text__NFIw2 text_text--size-lg__uWJQC block-paragraph">WHOOP
+                                            class="text_text__NFIw2 text_text--size-lg__uWJQC block-paragraph">Equity
+                                            Circle
                                             is always evolving with monthly
                                             feature updates that are fueled by
                                             the best minds in data science,
                                             health, sport, and human
                                             performance. You can also listen to
-                                            the WHOOP Podcast and access the <a
+                                            the Equity Circle Podcast and access
+                                            the <a
                                                 class="inline-link"
-                                                href="/gb/en/thelocker/">WHOOP
+                                                href="#">Equity
+                                                Circle
                                                 blog</a>, The Locker for
                                             extensive articles about all things
                                             human
                                             performance.</p></div></div></div>
-                            </div>
+                        </div>
                         <div
                             class="module-wrapper_module-wrapper__ONmYZ module-wrapper_module-wrapper--theme-dark__AUYZp spacer spacer_spacer--medium__jX0Eb"></div>
                         <div
@@ -640,7 +652,7 @@
                                         class="membership-card__commitment-container"><p
                                             class="text_text__NFIw2 text_text--size-lg__uWJQC membership-card_membership-card__commitment-heading__jyFzS">24
                                             Month Membership</p><a
-                                            href="https://join.whoop.com?membership=24month&amp;location=membershipPage"
+                                            href="#"
                                             class="membership-card_membership-card__link__JTZ1B"
                                             target="_blank" aria-hidden="true"
                                             tabindex="-1"><button
@@ -669,7 +681,7 @@
                                         class="membership-card__commitment-container"><p
                                             class="text_text__NFIw2 text_text--size-lg__uWJQC membership-card_membership-card__commitment-heading__jyFzS">Annual
                                             Membership</p><a
-                                            href="https://join.whoop.com?membership=annual&amp;location=membershipPage"
+                                            href="#"
                                             class="membership-card_membership-card__link__JTZ1B"
                                             target="_blank" aria-hidden="true"
                                             tabindex="-1"><button
@@ -701,7 +713,7 @@
                                             Membership</p><p
                                             class="text_text__NFIw2 text_text--size-sm__b7SaZ membership-card_membership-card__commitment-fine-print__3achX">2-6
                                             members, one bill, more value.</p><a
-                                            href="https://join.whoop.com/?membership=family&amp;location=membershipPage"
+                                            href="#"
                                             class="membership-card_membership-card__link__JTZ1B"
                                             target="_blank" aria-hidden="true"
                                             tabindex="-1"><button
@@ -734,7 +746,7 @@
                                             Month Free Trial</p><p
                                             class="text_text__NFIw2 text_text--size-sm__b7SaZ membership-card_membership-card__commitment-fine-print__3achX">Includes
                                             pre-owned device.</p><a
-                                            href="https://join.whoop.com?membership=trial&amp;location=membershipPage"
+                                            href="#"
                                             class="membership-card_membership-card__link__JTZ1B"
                                             target="_blank" aria-hidden="true"
                                             tabindex="-1"><button
@@ -769,36 +781,35 @@
                                 <div
                                     class="three-up-cards__card"
                                     aria-hidden="false"
-                                    style=""><div
+                                    style><div
                                         class="image-wrapped_wrapped-image__c3jd0 three-up-cards_three-up-cards__image__BoP_u"
                                         data-aspect-ratio="3:4"><img alt
                                             loading="lazy" width="3000"
                                             height="4000" decoding="async"
                                             data-nimg="1"
                                             style="color:transparent"
-                                            srcset="https://images.ctfassets.net/rbzqg6pelgqa/6Huos01OrWegSYYf0vzNru/bc7ba99b629bb5b613789bb873c58930/en-whoop-live.webp?fm=webp&amp;q=75&amp;w=3840 1x"
-                                            src="https://images.ctfassets.net/rbzqg6pelgqa/6Huos01OrWegSYYf0vzNru/bc7ba99b629bb5b613789bb873c58930/en-whoop-live.webp?fm=webp&amp;q=75&amp;w=3840"></div><p
+                                            src="./images/en-low-stress.webp"></div><p
                                         class="text_text__NFIw2 text_text--size-lg__uWJQC three-up-cards_three-up-cards__heading__ZMJI1"
                                         style="opacity: 1; transform: none;">Connect
                                         on Social</p><div
                                         class="rich-text_rich-text__y_zI2 three-up-cards__content"
                                         style="opacity: 1; transform: none;"><p
                                             class="text_text__NFIw2 text_text--size-lg__uWJQC block-paragraph">Overlay
-                                            your real-time WHOOP data on photos
+                                            your real-time Equity Circle data on
+                                            photos
                                             or videos to share with friends or
                                             post to social
                                             media.</p></div></div><div
                                     class="three-up-cards__card"
                                     aria-hidden="false"
-                                    style=""><div
+                                    style><div
                                         class="image-wrapped_wrapped-image__c3jd0 three-up-cards_three-up-cards__image__BoP_u"
                                         data-aspect-ratio="3:4"><img alt
                                             loading="lazy" width="3000"
                                             height="4000" decoding="async"
                                             data-nimg="1"
                                             style="color:transparent"
-                                            srcset="https://images.ctfassets.net/rbzqg6pelgqa/2tD7dk11yuSdqcTQ9iFErg/041823cfbd9c5f975eec2a13f4e35e24/en-health-report.webp?fm=webp&amp;q=75&amp;w=3840 1x"
-                                            src="https://images.ctfassets.net/rbzqg6pelgqa/2tD7dk11yuSdqcTQ9iFErg/041823cfbd9c5f975eec2a13f4e35e24/en-health-report.webp?fm=webp&amp;q=75&amp;w=3840"></div><p
+                                            src="./images/en-health-report.webp"></div><p
                                         class="text_text__NFIw2 text_text--size-lg__uWJQC three-up-cards_three-up-cards__heading__ZMJI1"
                                         style="opacity: 1; transform: none;">Share
                                         with Healthcare Providers</p><div
@@ -811,18 +822,17 @@
                                         </p></div></div><div
                                     class="three-up-cards__card"
                                     aria-hidden="false"
-                                    style=""><div
+                                    style><div
                                         class="image-wrapped_wrapped-image__c3jd0 three-up-cards_three-up-cards__image__BoP_u"
                                         data-aspect-ratio="3:4"><img alt
                                             loading="lazy" width="3000"
                                             height="4000" decoding="async"
                                             data-nimg="1"
                                             style="color:transparent"
-                                            srcset="https://images.ctfassets.net/rbzqg6pelgqa/673lhxw92sAUeuMx8bSLwL/eada73e5316b02997085cd09c94bf4ff/en-community-teams.webp?fm=webp&amp;q=75&amp;w=3840 1x"
-                                            src="https://images.ctfassets.net/rbzqg6pelgqa/673lhxw92sAUeuMx8bSLwL/eada73e5316b02997085cd09c94bf4ff/en-community-teams.webp?fm=webp&amp;q=75&amp;w=3840"></div><p
+                                            src="./images/en-community-teams.webp"></div><p
                                         class="text_text__NFIw2 text_text--size-lg__uWJQC three-up-cards_three-up-cards__heading__ZMJI1"
                                         style="opacity: 1; transform: none;">Join
-                                        WHOOP Teams</p><div
+                                        Equity Circle Teams</p><div
                                         class="rich-text_rich-text__y_zI2 three-up-cards__content"
                                         style="opacity: 1; transform: none;"><p
                                             class="text_text__NFIw2 text_text--size-lg__uWJQC block-paragraph">Create
@@ -833,7 +843,7 @@
                         </div>
                         <div
                             class="module-wrapper_module-wrapper__ONmYZ module-wrapper_module-wrapper--theme-light__Eyjjh spacer spacer_spacer--large__IyVm7"></div>
-<div
+                        <div
                             class="module-wrapper_module-wrapper__ONmYZ module-wrapper_module-wrapper--theme-light__Eyjjh headline-left-aligned headline-left-aligned_headline-left-aligned--stacked__wFlr2">
                             <div
                                 class="module-content_module-content__JtNA_ module-content_module-content--flexible-grid__NvyyD headline-left-aligned_headline-left-aligned__container__anhhL">
@@ -913,25 +923,25 @@
                                         <ul aria-label="Support links">
                                             <li
                                                 class="text_text__NFIw2 text_text--size-sm__b7SaZ footer_footer-navigation-links__items__pjcpl"><a
-                                                    href="./html/support.Equity Circle.com.html"
+                                                    href="#"
                                                     target="_blank">Member
                                                     Support</a></li>
                                             <li
                                                 class="text_text__NFIw2 text_text--size-sm__b7SaZ footer_footer-navigation-links__items__pjcpl"><a
-                                                    href="./html/orderlookup.html"
+                                                    href="#"
                                                     target="_blank">Order
                                                     Status</a></li>
                                             <li
                                                 class="text_text__NFIw2 text_text--size-sm__b7SaZ footer_footer-navigation-links__items__pjcpl"><a
-                                                    href="./html/rejoin-Equity Circle.html">Rejoin
+                                                    href="#">Rejoin
                                                     Equity Circle</a></li>
                                             <li
                                                 class="text_text__NFIw2 text_text--size-sm__b7SaZ footer_footer-navigation-links__items__pjcpl"><a
-                                                    href="./html/login.html">Member
+                                                    href="#">Member
                                                     Login</a></li>
                                             <li
                                                 class="text_text__NFIw2 text_text--size-sm__b7SaZ footer_footer-navigation-links__items__pjcpl"><a
-                                                    href="./html/Equity Circle-labs.html">Equity
+                                                    href="#">Equity
                                                     Circle Labs</a></li>
                                         </ul>
                                     </div>
@@ -941,22 +951,22 @@
                                         <ul aria-label="Company links">
                                             <li
                                                 class="text_text__NFIw2 text_text--size-sm__b7SaZ footer_footer-navigation-links__items__pjcpl"><a
-                                                    href="./html/en-us.html"
+                                                    href="#"
                                                     target="_blank">Support</a></li>
                                             <li
                                                 class="text_text__NFIw2 text_text--size-sm__b7SaZ footer_footer-navigation-links__items__pjcpl"><a
-                                                    href="./html/engineering.Equity Circle.com.html"
+                                                    href="#"
                                                     target="_blank">Developers</a></li>
                                             <li
                                                 class="text_text__NFIw2 text_text--size-sm__b7SaZ footer_footer-navigation-links__items__pjcpl"><a
-                                                    href="./html/engineering.Equity Circle.com.html"
+                                                    href="#"
                                                     target="_blank">Engineering</a></li>
                                             <li
                                                 class="text_text__NFIw2 text_text--size-sm__b7SaZ footer_footer-navigation-links__items__pjcpl"><a
-                                                    href="./html/careers.html">Careers</a></li>
+                                                    href="#">Careers</a></li>
                                             <li
                                                 class="text_text__NFIw2 text_text--size-sm__b7SaZ footer_footer-navigation-links__items__pjcpl"><a
-                                                    href="./html/about.html">Our
+                                                    href="#">Our
                                                     Mission</a></li>
                                         </ul>
                                     </div>
@@ -966,29 +976,29 @@
                                         <ul aria-label="Legal links">
                                             <li
                                                 class="text_text__NFIw2 text_text--size-sm__b7SaZ footer_footer-navigation-links__items__pjcpl"><a
-                                                    href="./html/terms-of-use.html">Terms
+                                                    href="#">Terms
                                                     of Use</a></li>
                                             <li
                                                 class="text_text__NFIw2 text_text--size-sm__b7SaZ footer_footer-navigation-links__items__pjcpl"><a
-                                                    href="./html/terms-of-sale.html">Terms
+                                                    href="#">Terms
                                                     of Sale</a></li>
                                             <li
                                                 class="text_text__NFIw2 text_text--size-sm__b7SaZ footer_footer-navigation-links__items__pjcpl"><a
-                                                    href="./html/privacy.html">Privacy</a></li>
+                                                    href="#">Privacy</a></li>
                                             <li
                                                 class="text_text__NFIw2 text_text--size-sm__b7SaZ footer_footer-navigation-links__items__pjcpl"><a
-                                                    href="./html/Equity Circle-privacy-policies.html">Minimum
+                                                    href="#">Minimum
                                                     Advertised Pricing
                                                     Policy</a></li>
                                             <li
                                                 class="text_text__NFIw2 text_text--size-sm__b7SaZ footer_footer-navigation-links__items__pjcpl"><a
-                                                    href="./html/Equity Circle-privacy-policies.html">Security</a></li>
+                                                    href="#">Security</a></li>
                                             <li
                                                 class="text_text__NFIw2 text_text--size-sm__b7SaZ footer_footer-navigation-links__items__pjcpl"><a
-                                                    href="./html/Equity Circle-privacy-policies.html">Patent</a></li>
+                                                    href="#">Patent</a></li>
                                             <li
                                                 class="text_text__NFIw2 text_text--size-sm__b7SaZ footer_footer-navigation-links__items__pjcpl"><a
-                                                    href="./html/full-privacy-policy.html">Full
+                                                    href="#">Full
                                                     Privacy Policy</a></li>
                                         </ul>
                                     </div>
@@ -998,12 +1008,12 @@
                                         <ul aria-label="Partner links">
                                             <li
                                                 class="text_text__NFIw2 text_text--size-sm__b7SaZ footer_footer-navigation-links__items__pjcpl"><a
-                                                    href="./html/HSXphBws.html"
+                                                    href="#"
                                                     target="_blank">Become an
                                                     Affiliate</a></li>
                                             <li
                                                 class="text_text__NFIw2 text_text--size-sm__b7SaZ footer_footer-navigation-links__items__pjcpl"><a
-                                                    href="./html/developer.Equity Circle.com.html"
+                                                    href="#"
                                                     target="_blank">Developers</a></li>
                                         </ul>
                                     </div>
@@ -1019,7 +1029,7 @@
                                                     Equity Circle</a></li>
                                             <li
                                                 class="text_text__NFIw2 text_text--size-sm__b7SaZ footer_footer-navigation-links__items__pjcpl"><a
-                                                    href="./html/referafriend.html"
+                                                    href="#"
                                                     target="_blank">Refer a
                                                     Friend</a></li>
                                             <li
@@ -1029,25 +1039,25 @@
                                                     Circle 4.0</a></li>
                                             <li
                                                 class="text_text__NFIw2 text_text--size-sm__b7SaZ footer_footer-navigation-links__items__pjcpl"><a
-                                                    href="./html/cr7.html">Equity
+                                                    href="#">Equity
                                                     Circle x CR7</a></li>
                                             <li
                                                 class="text_text__NFIw2 text_text--size-sm__b7SaZ footer_footer-navigation-links__items__pjcpl"><a
-                                                    href="./html/corporate-gifting.html">Corporate
+                                                    href="#">Corporate
                                                     Gifting</a></li>
                                             <li
                                                 class="text_text__NFIw2 text_text--size-sm__b7SaZ footer_footer-navigation-links__items__pjcpl"><a
-                                                    href="./html/hero-discounts.html">Hero
+                                                    href="#">Hero
                                                     Discounts</a></li>
                                             <li
                                                 class="text_text__NFIw2 text_text--size-sm__b7SaZ footer_footer-navigation-links__items__pjcpl"><a
-                                                    href="./html/us.html"
+                                                    href="#"
                                                     target="_blank">Student
                                                     Discount</a></li>
                                             <li
                                                 class="text_text__NFIw2 text_text--size-sm__b7SaZ footer_footer-navigation-links__items__pjcpl"><a
                                                     target="_blank"
-                                                    href="./html/store-locator.html">Store
+                                                    href="#">Store
                                                     Locator</a></li>
                                         </ul>
                                     </div>
@@ -1058,7 +1068,7 @@
                                         <ul aria-label="The Locker links">
                                             <li
                                                 class="text_text__NFIw2 text_text--size-sm__b7SaZ footer_footer-navigation-links__items__pjcpl"><a
-                                                    href="./html/thelocker.html">The
+                                                    href="#">The
                                                     Locker</a></li>
                                         </ul>
                                     </div>
@@ -1066,7 +1076,8 @@
                                 <div class="footer_footer-bottom-bar__IeIL7">
                                     <div
                                         class="footer_footer-bottom-bar__logo__hTiOH">
-                                        <img src="./images/Equity_Circle.png" width="130" alt="">
+                                        <img src="./images/Equity_Circle.png"
+                                            width="130" alt>
                                         <div
                                             class="footer_footer-bottom-bar__mission__Rrdwm">
                                             <div
@@ -1179,6 +1190,41 @@
                 </div>
             </div>
         </div>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                const targetElement = document.querySelector(".scroll-effect");
+                const initialWidth = targetElement.offsetWidth;
+                const maxReduction = initialWidth * 0.3;
+                const initialRadius = 0;
+                let ticking = false;
+                
+                function handleScroll() {
+                    let elementPosition = targetElement.getBoundingClientRect().top;
+                    let viewportHeight = window.innerHeight;
+                    let scrollFactor = Math.max(0, (viewportHeight / 2 - elementPosition) / (viewportHeight / 2));
+                    
+                    let newBorderRadius = initialRadius + scrollFactor * (targetElement.offsetHeight / 2);
+    
+                    // Check screen width to decide if width should change
+                    if (window.innerWidth > 768) { // Only reduce width on tablets & larger screens
+                        let newWidth = initialWidth - scrollFactor * maxReduction;
+                        targetElement.style.width = `${Math.max(initialWidth - maxReduction, newWidth)}px`;
+                    }
+    
+                    targetElement.style.borderRadius = `${newBorderRadius}px`;
+    
+                    ticking = false;
+                }
+    
+                window.addEventListener("scroll", function () {
+                    if (!ticking) {
+                        requestAnimationFrame(handleScroll);
+                        ticking = true;
+                    }
+                });
+            });
+        </script>
 
     </body>
 </html>
